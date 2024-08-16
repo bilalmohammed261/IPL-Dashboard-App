@@ -1,13 +1,18 @@
 import './App.css'
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 import Notfound from './components/NotFound'
+import Home from './components/Home'
+
+// import TeamMatches from './components/TeamMatches'
 
 const App = () => (
-  <BrowserRouter>
-    <Switch>
-      <Route component={Notfound} />
-    </Switch>
-  </BrowserRouter>
+  <Switch>
+    <Route exact path="/" component={Home} />
+
+    <Route component={Notfound} />
+  </Switch>
 )
 
 export default App
+
+//  <Route exact path="/team-matches/:id" component={TeamMatches} />
