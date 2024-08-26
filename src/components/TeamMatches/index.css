@@ -1,1 +1,24 @@
 /* Write your CSS here */
+.team-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#d91c1f, #a4261d);
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.latest {
+  font-size: 18px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.match-results-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+  list-style-type: none;
+}

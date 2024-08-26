@@ -1,1 +1,27 @@
 /* Write your CSS here */
+.last-match-card {
+  display: flex;
+  background-color: #1e293b;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.latest-img {
+  height: 100px;
+  width: 100px;
+  margin-top: 0;
+}
